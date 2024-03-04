@@ -1,0 +1,5 @@
+ries i)-[~/Desktop]
+$ git clone https: //github.com/Lockedbyte/CVE-2021-40444.git
+fatal: could not create work tree dir 'CVE-2021-40444": Read-only file system
+
+epee [+/Desktop}

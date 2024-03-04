@@ -1,0 +1,100 @@
+The main Purpose
+
+Data Privacy
+(Encryption)
+
+Authentication
+
+Data Integrity
+
+Key Management
+
+Compatibiity in
+tems of Hardware
+
+Volnerability
+Deployment in
+tems of complexity
+
+Replay aack
+protection
+
+Security is provided in con-
+trast to wired networks
+
+Rivest Cipher 4 (RCA)
+
+\WEP-Open and WEP-Shared
+crc
+
+Key management isnot pro-
+vided
+
+Possible to deploy on current
+hardware infrastructure
+
+Vulnerable against Chopchop,
+Binau's fragmentation and
+DoS attacks including variety
+‘of Dos attacks.
+
+Easy to deploy and configure
+
+[No protection against replay
+attacks
+
+Implementation of major IEEE802.1
+standards with WEP without requiring
+new hardware
+
+“Temporal Key Inegrity Protocol
+(TKIP)
+
+WPA-PSK and WPA-Enterrise
+
+Data integrity is provided through
+Message Integrity Cod,
+
+“The 4 way handshaking mechanism is
+used to provide for key
+
+management
+
+Possible to deploy on both current and
+previous hardware
+
+Vulnerable against Chopehop,
+Ohigashi Mons, WPA-PSK.
+and Dos stacks
+
+Implements sequence counter for
+replay protection
+
+‘Complete IEEE 802.1 standards
+‘are implemented with new
+enhancements of WPA
+
+Authentication is provided through
+chipper blocks wth CMP and
+AES,
+WPA2-Personal and
+WPA2 enterprise
+Cipher block chaining message
+authentication code (CBC-MAC)
+‘The 4 way handshaking
+‘mechanism is used 1 provide
+
+for key management
+(Oller Network Interface Cards are
+‘no supported, Only the 2006 and
+
+‘Vulnerable against DoS attacks due
+to unprotected contol frames and
+MAC spoofing
+
+\WPA.2 requires complicated setup
+with WPA enterprise
+Implementation of 48-bit
+
+atagran/packet number protects
+against replay attack
