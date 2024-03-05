@@ -147,10 +147,12 @@ async def main(phone):
                         folder_type = document_type
                     filename = message.media.document.attributes[0].file_name
                     file_path = await client.download_media(message.media.document, file=os.path.join('save_' + str(folder_type), group_id_str + '_' + str(message.id) + '_'+ filename))
+                    all_messages.append(message_dict)
                     print("Downloaded file: ",file_path)
                 elif message.media.document.mime_type.startswith("text/"):
                     filename = message.media.document.attributes[0].file_name
                     file_path = await client.download_media(message.media.document, file=os.path.join('save_text', group_id_str + '_' + str(message.id) + '_'+ filename))
+                    all_messages.append(message_dict)
                     print("Downloaded file: ",file_path)
                 else:
                     print("No file to download")
